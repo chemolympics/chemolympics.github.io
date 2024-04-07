@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+p {
+  margin-bottom: 0.5em;
+}
+
+ul {
+  margin-bottom: 1em;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -13,7 +21,10 @@ body {
   padding: 20px;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
   margin: 20px auto;
   width: 80%;
   max-width: 960px;
@@ -81,7 +92,8 @@ section h2 {
 
 /* List styles */
 ul {
-  padding-left: 20px; /* Indent for bullet points */
+  padding-left: 20px;
+  /* Indent for bullet points */
 }
 
 /* Footer styles */
@@ -97,22 +109,30 @@ footer p {
 /* For interactive components */
 .parent {
   display: flex;
-  justify-content: center; /* Centers children horizontally */
-  align-items: center; /* Centers children vertically */
-  height: auto; /* Adjust the height as needed */
-  padding: 20px; /* Add some padding */
+  justify-content: center;
+  /* Centers children horizontally */
+  align-items: center;
+  /* Centers children vertically */
+  height: auto;
+  /* Adjust the height as needed */
+  padding: 20px;
+  /* Add some padding */
 }
 
 .parent iframe {
   border: none;
-  width: 80%; /* Set a max-width for the iframe */
-  height: 500px; /* Adjust the height as needed */
-  margin: 0 auto; /* Center the iframe */
+  width: 80%;
+  /* Set a max-width for the iframe */
+  height: 500px;
+  /* Adjust the height as needed */
+  margin: 0 auto;
+  /* Center the iframe */
 }
 
 /* Remove the global iframe styles that might conflict */
 iframe {
   max-width: 100%;
   height: auto;
-  margin: 20px auto; /* This centers the iframe */
+  margin: 20px auto;
+  /* This centers the iframe */
 }
