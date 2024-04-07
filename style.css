@@ -93,3 +93,26 @@ footer {
 footer p {
   color: #666;
 }
+
+/* For interactive components */
+.parent {
+  display: flex;
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically */
+  height: auto; /* Adjust the height as needed */
+  padding: 20px; /* Add some padding */
+}
+
+.parent iframe {
+  border: none;
+  width: 80%; /* Set a max-width for the iframe */
+  height: 500px; /* Adjust the height as needed */
+  margin: 0 auto; /* Center the iframe */
+}
+
+/* Remove the global iframe styles that might conflict */
+iframe {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto; /* This centers the iframe */
+}
