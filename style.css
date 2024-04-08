@@ -123,10 +123,11 @@ footer p {
 }
 
 .parent iframe {
+  display: block;
   border: none;
   width: 80%;
   /* Set a max-width for the iframe */
-  height: 500px;
+  height: 52vh;
   /* Adjust the height as needed */
   margin: 0 auto;
   /* Center the iframe */
@@ -135,7 +136,7 @@ footer p {
 /* Remove the global iframe styles that might conflict */
 iframe {
   max-width: 100%;
-  height: auto;
+  height: 100vh;
   margin: 20px auto;
   /* This centers the iframe */
 }
