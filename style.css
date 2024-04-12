@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-p {
-  margin-bottom: 0.5em;
-}
-
 ul {
   margin-bottom: 1em;
 }
@@ -107,6 +103,7 @@ footer {
 
 footer p {
   color: #666;
+
 }
 
 /* For interactive components */
