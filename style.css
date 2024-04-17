@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-header {
-  color: #2c652b;
-}
-
 img {
   max-width: 45%;
 }
@@ -23,6 +19,10 @@ body {
 ul, ol {
   padding-left: 35px; /*There was a bug with the positioning of lists, so this manually corrects it*/
   margin-bottom: 1em;
+}
+
+h3 {
+  margin-top: 15px;
 }
 
 /* All of the "boxes" */
@@ -55,7 +55,7 @@ header {
 
 header h1 {
   text-align: center;
-  color: #333;
+  color: #2b4765;
 }
 
 nav {
@@ -83,12 +83,6 @@ nav a:hover {
 
 section {
   margin-bottom: 20px;
-}
-
-section h2 {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
 }
 
 /* List styles */
