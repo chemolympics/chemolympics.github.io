@@ -44,7 +44,7 @@ footer {
 
 /* For highlighting current page */
 nav a.active {
-  background-color: #f4f4f4;
+  background-color: #d6f7d2;
   color: #333;
 }
 
@@ -69,16 +69,16 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #395943;
   padding: 5px 10px;
-  border: 1px solid #ddd;
+  border: 1.5px solid #85b594;
   border-radius: 5px;
   transition: background-color 0.3s;
   font-size: vw; /* For mobile accomodation, this scales font size to the screen width */
 }
 
 nav a:hover {
-  background-color: #f4f4f4;
+  background-color: #c7ebd2;
 }
 
 section {
